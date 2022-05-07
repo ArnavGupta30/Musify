@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"
 import '../static/css/search.css'
 
 const Search = ({ setAudio, valu }) => {
-    var { data, isPending, error } = useFetch(`https://Music.sh1ft3r.repl.co/info/${valu}`)
+    var { data, isPending, error } = useFetch(`https://Music-Api.cashlycash.repl.co/info/${valu}`)
     if (error) {
         data = null
     }

@@ -6,7 +6,7 @@ const Play = ({ setAudio, songs, setsongs}) => {
     const history = useHistory()
     const { name } = useParams()
 
-    const { data, isPending, error } = useFetch(`https://Music.sh1ft3r.repl.co/id/${name}`)
+    const { data, isPending, error } = useFetch(`https://Music-Api.cashlycash.repl.co/id/${name}`)
 
     const handleClick = () => {
         setAudio(data.audio)

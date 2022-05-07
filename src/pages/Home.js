@@ -1,7 +1,7 @@
 const Home = () => {
     return (
         <div className="Home">
-            <iframe src="https://Music-Api.cashlycash.repl.co/intro.pdf" frameborder="0"></iframe>
+            <h1> TOOO lazy to make a home page </h1>
         </div>
     );
 }

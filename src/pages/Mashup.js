@@ -2,8 +2,8 @@ import useFetch from "../hooks/useFetch"
 
 const Mashup = ({ songs }) => {
     var [song1, song2] = songs
-    const { data: data1, isPending: loading1, error: error1 } = useFetch(`https://Music.sh1ft3r.repl.co/id/${song1}`)
-    const { data: data2, isPending: loading2, error: error2 } = useFetch(`https://Music.sh1ft3r.repl.co/id/${song2}`)
+    const { data: data1, isPending: loading1, error: error1 } = useFetch(`https://Music-Api.cashlycash.repl.co/id/${song1}`)
+    const { data: data2, isPending: loading2, error: error2 } = useFetch(`https://Music-Api.cashlycash.repl.co/id/${song2}`)
 
     var handleChange = (e) => {
         const slider = e.target
